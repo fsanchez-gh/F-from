@@ -1,2 +1,4 @@
 # F_from
- Programming Task. Conveying a Feeling (Máster UMA)
+ Programming Task. To Convey a Feeling (Máster UMA)
+ Francisco J. Sánchez
+ April 2021
