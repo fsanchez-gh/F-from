@@ -1,0 +1,67 @@
+{
+    "name": "Rumble",
+    "maps": [
+        {
+            "name": "Rumble map",
+            "id": "f26da6fc-227f-4abc-ba84-910119d64376",
+            "actions": [
+                {
+                    "name": "Warp rumble",
+                    "type": "PassThrough",
+                    "id": "e0908d46-ac6b-4498-afb7-ac946fcf4d1d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Triggers",
+                    "id": "06ca58a3-461f-4152-8243-b75867c67cc0",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Warp rumble",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "f796a233-528f-4bcb-847e-0f1b4e9580f2",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Warp rumble",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f7e67185-be8b-4aa4-8d94-9e3c0cd4de56",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Warp rumble",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
